@@ -1,0 +1,96 @@
+#header {
+    color: rgb(255, 38, 0);
+    background-image: linear-gradient(to bottom right, red, yellow);
+    position: relative;
+    bottom: 45px;
+    border: 3px solid red;
+    box-shadow: 8px 7px 5px rgb(76, 75, 75);
+    border-radius: 25px;
+    height: 260px;
+    top: 0px;
+    margin: px;
+}
+
+#subtitle {
+    color: rgb(31, 102, 255);
+    font-size: 26px;
+    position: relative;
+    bottom: 50px;
+}
+
+#links {
+    position: relative;
+    bottom: 100px;
+}
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: "Trebuchet MS";
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1 {
+    color: #3498db;
+    position: relative;
+}
+
+.btn1:hover{
+    color: #fff 
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3898db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before {
+    height: 180%;
+}
+
+.don {
+    top: 25px;
+    left: 10px;
+}
+
+.mem {
+    color: #3898db;
+}
+
+#amount {
+    position: relative;
+    bottom: -5px;
+    left: 0px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: rgba(130, 36, 238, 0.808);
+    text-shadow: 2px 2px 5px rgba(13, 150, 230, 0.527);
+}
+
+#story {
+    position: relative;
+    bottom: 95px;
+    left: 10px;
+}
+
+#members{
+    position: relative;
+    left: 1400px;
+    top: 200px;
+}
