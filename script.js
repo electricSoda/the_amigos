@@ -8,7 +8,7 @@ function displaycount() {
     document.getElementById("carrier").innerHTML = count();
 }
 
-function open() {
+function members() {
     var myBody = document.getElementsByTagName("body");
     myBody[0].innerHTML = "<p> Hi </p>";
 }

@@ -8,7 +8,7 @@
     border-radius: 25px;
     height: 260px;
     top: 0px;
-    margin: px;
+    margin: 1px;
 }
 
 #subtitle {
@@ -19,8 +19,7 @@
 }
 
 #links {
-    position: relative;
-    bottom: 100px;
+    text-align: right;
 }
 
 .btn {
@@ -85,13 +84,23 @@
 
 #story {
     position: relative;
-    bottom: 95px;
+    bottom: 45px;
     left: 10px;
 }
 
-#members{
+
+#member{
     position: relative;
-    left: 1400px;
-    top: 200px;
+    top: 50px;
+    left: 100px;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
 }
 
+#social_media{
+    position: relative;
+    bottom: 100px
+}
