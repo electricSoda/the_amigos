@@ -69,7 +69,35 @@
 }
 
 .mem {
-    color: #3898db;
+    top: 20px;
+    left: 100px;
+    z-index: 1;     
+    padding: 1em;     
+    margin: -1em; 
+}
+
+.fun {
+    top: 60px;
+    left: 100px;
+    z-index: 1;     
+    padding: 1em;     
+    margin: -1em; 
+}
+
+.cc{
+    top: 100px;
+    left: 100px;
+    z-index: 1;     
+    padding: 1em;     
+    margin: -1em; 
+}
+
+#dollar {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    color: rgba(130, 36, 238, 0.808);
+    text-shadow: 2px 2px 5px rgba(13, 150, 230, 0.527);
 }
 
 #amount {
@@ -84,20 +112,15 @@
 
 #story {
     position: relative;
-    bottom: 45px;
+    bottom: 80px;
     left: 10px;
 }
 
 
-#member{
+#sideline{
     position: relative;
-    top: 50px;
-    left: 100px;
     display: inline-block;     
     position: relative;    
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em; 
 }
 
 #social_media{
