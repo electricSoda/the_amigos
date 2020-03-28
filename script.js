@@ -21,5 +21,5 @@ function homepage() {
 
 function funny() {
     var funny = document.getElementsByTagName("body");
-    funny[0].innerHTML = "<p>Hi there.</p>";
+    funny[0].innerHTML = "<button onclick='start_game()'>Start the Game!</button> <a><script src = 'game.js' type='text/javascript'></script></a>";
 }
