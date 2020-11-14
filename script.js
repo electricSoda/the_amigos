@@ -10,8 +10,7 @@ function displaycount() {
 
 function members() {
     var myBody = document.getElementsByTagName('body');
-    myBody[0].innerHTML = 
-    "<link rel='stylesheet' type='text/css' href='style.css'/> <font size='5' face='Impact'><center><h1>Members:</h1></center></font>  <p><center> Justin Ge <br> Maxwell Vandershaaf <br> Victor Oshmyan <br> Naman Saluja </center><p> <button class='btn btn1'onclick='homepage()'><left>Back</left></button> <a><script src = 'script.js' type='text/javascript'></script>";
+    myBody[0].innerHTML = "<link rel='stylesheet' type='text/css' href='style.css'/> <font size='5' face='Impact'><center><h1>Members:</h1></center></font>  <p><center> Justin Ge <br> Maxwell Vandershaaf <br> Victor Oshmyan <br> Naman Saluja </center><p> <button class='btn btn1'onclick='homepage()'><left>Back</left></button> <a><script src = 'script.js' type='text/javascript'></script>";
 }
 
 function homepage() {
@@ -22,4 +21,11 @@ function homepage() {
 function funny() {
     var funny = document.getElementsByTagName("body");
     funny[0].innerHTML = "<button onclick='start_game()'>Start the Game!</button> <a><script src = 'game.js' type='text/javascript'></script></a>";
+}
+
+function chat() {
+    var bodyy = document.getElementsByTagName('body');
+    bodyy[0].innerHTML = "<form><label>Enter message: </label><input type='text' size = 50 maxlength=1000></input><input type='submit'></input><hr><textarea name='message' rows='30' cols='100' disabled>Welcome to the chatroom!</textarea></form>"
+
+
 }
