@@ -24,8 +24,5 @@ function funny() {
 }
 
 function chat() {
-    var bodyy = document.getElementsByTagName('body');
-    bodyy[0].innerHTML = "<form><label>Enter message: </label><input type='text' size = 50 maxlength=1000></input><input type='submit'></input><hr><textarea name='message' rows='30' cols='100' disabled>Welcome to the chatroom!</textarea></form>"
-
-
+    window.open('https://electricsoda.github.io/chatrrom-collab-/')
 }
